@@ -41,6 +41,7 @@ _For now, we'll start with Local Storage, then later, we can hook it up to a dat
 
 
 <br>
+
 ### Step 3: Setting Up the Project
 Let’s get your project up and running! Open your terminal and run:
 
