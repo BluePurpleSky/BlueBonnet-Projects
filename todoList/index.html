@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do Your Doings</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap"> -->
+    <meta name="viewport" content="width=1024">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="subtitle">Lets organize your activity together!</span>
+            <div class="header-icons">
+                <button class="icon-btn notify">
+                    <span class="icon-pin"></span>
+                </button>
+                <button class="icon-btn search">
+                    <span class="icon-search">  </span>
+                </button>
+                <button class="icon-btn profile">
+                    <span class="icon-profile">
+                    </span>
+                </button>
+            </div>
+        </header>
+        
+        <main>
+            <section class="frame stats-section">
+                <div class="circle-stat">
+                    <span id="numbers">0 / 0</span>
+                </div>
+                <div class="stat-details">
+                    <h1>TO DO YOUR DOINGS</h1>
+                    <span class="progress-subtitle">Few more to go...</span>
+                    <div class="progress-bar" id="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <form class="frame input-section" action="">
+                
+                    <input class="task-input" id="task-input" type="text" placeholder="What’s on your mind...">
+                    <button class="add-btn" type="submit" id="add-task"><span>+</span></button>
+            </form>
+
+
+            <ul class="frame todo-list-section"  id="tasks-list">
+
+            </ul>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
